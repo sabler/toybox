@@ -23,12 +23,7 @@ function dottie (str, limit) {
                 sanitizedString = targetStr.replace(/(<([^>]+)>)/ig,"");
                 truncatedStr = sanitizedString.substring(0,targetLimit+1);
                 lastSpace = truncatedStr.lastIndexOf(" ");
-
-                if(sanitizedString.length <= limit) {
-                    modifiedStr = sanitizedString;
-                } else {
-                    modifiedStr = truncatedStr.substring(0,lastSpace) + "...";
-                }
+                modifiedStr = (sanitizedString.length <= limit) ? sanitizedString : truncatedStr.substring(0,lastSpace) + "...";
                 return modifiedStr;
 
             } else {
