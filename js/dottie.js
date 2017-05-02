@@ -19,7 +19,6 @@ function dottie (str, limit) {
         var truncatedStr = "";
 
             if(str !== "undefined" && typeof str !== "undefined") {
-
                 sanitizedString = targetStr.replace(/(<([^>]+)>)/ig,"");
                 truncatedStr = sanitizedString.substring(0,targetLimit+1);
                 lastSpace = truncatedStr.lastIndexOf(" ");
