@@ -1,7 +1,7 @@
 /** Get the measurement in pixels of an arbitrary HTML element
   * returned in a nice, friendly object
     @function measure
-    @param {string|object} element An element's ID or DOM previously-retrieved DOM object
+    @param {string|object} element An element's ID or previously-retrieved DOM object
     @example measure('#someID')
     @example measure (HTMLObject)
 
