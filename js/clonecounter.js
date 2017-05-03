@@ -3,7 +3,7 @@
     @param {array} arr Simple array of numbers
     @example clonecounter(arrayName)
 
-    @returns {string} Most common entry
+    @returns {number} Most common entry
 */
 
 function clonecounter(arr) {
