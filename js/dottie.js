@@ -2,7 +2,7 @@
   * HTML tags are automatically stripped for a more accurate response.
   * Truncation doesn't permit partial words
     @function dottie
-    @param {string} str An arbitrary string
+    @param {string} str Arbitrary string
     @param {number} limit Character limit (the calcuation is a little conservative)
 
     @example swapper('Lorem Ipsum Dolor Sit Amet',7);
