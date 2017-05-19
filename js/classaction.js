@@ -12,7 +12,7 @@ function classAction (elem,action,cssClass) {
     var classes = elem.classList.value;
         if(action === "add") {
             if(classes.indexOf(cssClass) === -1) {
-                var newClass = elem.className + " " cssClass;
+                var newClass = elem.className + " " + cssClass;
                 elem.className = newClass;
             }
         }
